@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+carousel-item active {
+  max-width: 1800px;
+  height: auto;
+}
+
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+footer {
+  background-color: #f2f2f2;
+  padding: 25px;
+}
+
+.nav-link {
+  color: #000;
+}
+
+.navbar-inverse .navbar-brand {
+  color: #ffffff;
+}
+
+
+body>nav>div>a {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+.d-flex {
+  margin-right: 11px;
+}
+
+body>nav>ul>li>a {
+  color: black;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 12px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+body>nav>div>div.navbar-header>a, #myNavbar>ul>li {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 10px;
+}
+
+body>div.container>footer {
+  background-color: #ffffff;
+}
+
+body>nav>div>div.navbar-header>a {
+  font-size: 17px;
+  color: #ffffff;
+}
+
+#myNavbar>ul {
+  float: right;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: #ffffff;
+}
+
+body>nav.navbar.navbar-inverse {
+  background-color: #222222f0;
+}
+
+#myNavbar>ul>li>a:hover {
+  background-color: #e5e5e5e5;
+  color: #000;
+}
+
+body>nav>ol {
+  background-color: transparent;
+}
+
+body>nav>ol>li.breadcrumb-item.active, .breadcrumb>li+li:before {
+  color: #000;
+}
+
+.nav-link:hover {
+  background-color: #000;
+  color: #ffffff;
+}
+
+
+.navbar-nav>li>a {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  margin-top: 9px;
+  margin-bottom: 9px;
+}
+
+body>nav>ul {
+  margin-right: 26px;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active {
+  background-color: transparent;
+}
+
+body>div.jumbotron>div>div {
+  width: auto;
+}
+
+body>div.jumbotron>div>div>img {
+  border-radius: 50%;
+}
+
+body>div.jumbotron>div>div>div>h4, body>div:nth-child(4)>h3 {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 13px;
+}
+
+.breadcrumb {
+  background-color: transparent;
+}
+
+body>div>div {
+  display: contents;
+  text-align: -webkit-right;
+}
+
+.jumbotron {
+  background-color: #e5e5e5e5;
+}
+
+body>div.jumbotron>div>div {
+  margin-top: -25px;
+  margin-bottom: -50px;
+}
+
+body>div:nth-child(4)>div>div:nth-child(1) {
+  margin-left: 38px;
+}
+
+body>div:nth-child(6)>div>div:nth-child(1)>img {
+  margin-right: 62px;
+}
+
+body>div:nth-child(6) {
+  margin-left: 120px;
+  margin-top: 21px;
+  margin-bottom: 15px;
+}
+
+body>div:nth-child(6)>div>div:nth-child(2) {
+  margin-right: -1px;
+}
+
+body>div:nth-child(6)>div>div:nth-child(2)>img {
+  margin-right: 19px;
+}
+
+body>footer {
+  padding: 9px;
+}
+
+body>div.jumbotron {
+  margin-top: -20px;
+}
+
+#redes {
+  width: 71%;
+  margin: 0;
+  padding: 0;
+  float: right;
+  margin-top: -163px;
+}
+
+body>div.jumbotron>div>div>img {
+  vertical-align: baseline;
+}
+
+#redes>ul>ol>a {
+  color: #000;
+}
+
+#redes>ul>ol:nth-child(2) {
+  margin-left: -45px;
+}
+
+
+#redes>ul>ol:nth-child(4) {
+  margin-left: 14px;
+}
+
+#redes>ul>ol:nth-child(3) {
+  margin-left: 15px;
+}
+
+body>div.jumbotron>div>div>div.card-body>h4 {
+  margin-bottom: -5px;
+  margin-top: 31px;
+}
+
+.dropdown {
+  width: 64%;
+  margin: 0;
+  padding: 0;
+  float: left;
+  margin-top: -131px;
+}
+
+.btn-primary {
+  color: #ffffff;
+  background-color: #000;
+  border-color: #000;
+}
+
+.btn-primary:hover, .btn-primary.focus, .btn-primary:focus {
+  color: #ffffff;
+  background-color: #000;
+}
+
+.btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover,
+.btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover,
+.open>.dropdown-toggle.btn-primary.focus, .open>.dropdown-toggle.btn-primary:focus,
+.open>.dropdown-toggle.btn-primary:hover {
+  color: #ffffff;
+  background-color: #000;
+}
+
+
+body>div.jumbotron>div>div>div.dropdown.open>div {
+  padding: 8px 10px;
+  left: 194px;
+  max-width: 365px;
+  display: flow-root;
+  margin-left: -184px;
+  margin-top: -36px;
+}
+
+.jumbotron p {
+  margin-bottom: 14px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+
+
+body>div.jumbotron>div>div>div.dropdown.open>div>p:nth-child(1),
+body>div.jumbotron>div>div>div.dropdown.open>div>p:nth-child(2) {
+  color: green;
+  font-weight: 550;
+}
+
+body>div.jumbotron>div>div>div.dropdown.open>div>p.mb-0 {
+  color: orange;
+  font-weight: 550;
+}
+
+body>nav:nth-child(2)>ol {
+  padding: 8px 15px;
+  margin-bottom: 20px;
+  list-style: none;
+  background-color: transparent;
+  border-radius: 4px;
+}

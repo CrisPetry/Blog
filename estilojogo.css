@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+}
+
+.navbar-brand {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+}
+
+.navbar {
+    background-color: #101010 !important;
+    color: #fffff4;
+    width: 375px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    align-items: baseline;
+}
+
+.navbar-light .navbar-brand {
+    color: #fffff4;
+}
+
+.py-4 {
+    padding-top: 0.5rem !important;
+}
+
+body>nav>div>nav>ol>li>a {
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+}
+
+body>nav>div>nav>ol>li>a.active {
+    color: #e5e5e5;
+}
+
+body>nav>div>nav>ol {
+    margin-left: 51px;
+    font-family: monospace;
+    font-size: 12px;
+}
+
+body>nav>div>ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+body>nav>div>ul {
+    margin-top: 45px;
+}
+
+.nav-link {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+    color: #ffffff;
+}
+
+#icon {
+    display: none;
+}
+
+.nav-link:hover #icon, .nav-link:hover {
+    display: initial;
+    color: #ffffff;
+}
+
+body>main>div>div.p-5.mb-4.bg-light.rounded-3 {
+    background-image: url(/img/infinite.jpg);
+}
+
+.fw-bold {
+    color: #072a02;
+}
+
+body>main>div>div.p-5.mb-4.bg-light.rounded-3>div>p {
+    color: #072a02;
+    width: fit-content;
+    font-weight: 500;
+}
+
+
+.saiba {
+    color: #101010;
+    font-weight: 550;
+    text-decoration: none;
+}
+
+body>main>div>div.p-5.mb-4.bg-light.rounded-3>div>div {
+    width: 581px;
+    margin-left: initial;
+}
+
+body>main>div>div.p-5.mb-4.bg-light.rounded-3>div>div>p {
+    width: fit-content;
+}
+
+body>nav>div {
+    margin-top: 200px;
+}
+
+.breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 0;
+    margin-bottom: 3rem;
+    margin-top: -8rem;
+    list-style: none;
+}
+
+body>main>div>div.row.align-items-md-stretch>div:nth-child(1)>div {
+    background-image: url(/img/artorias.jpg);
+}
+
+.msg {
+    background-color: #c1c1c18c;
+    opacity: 0;
+    border-radius: 2px;
+}
+
+
+
+body>main>div>div.row.align-items-md-stretch>div:nth-child(2)>div {
+    background-image: url(/img/forza.jpg);
+}
+
+
+
+body>main>div>div.row.align-items-md-stretch>div:nth-child(2)>div:hover .msg,
+body>main>div>div.row.align-items-md-stretch>div:nth-child(1)>div:hover .msg,
+body>main>div>div.p-5.mb-4.bg-light.rounded-3:hover .msg {
+    opacity: 1;
+    transition: ease-in 1.0s;
+}
+
+body>main>div>div.row.align-items-md-stretch>div>div>div>h2,
+body>main>div>div.row.align-items-md-stretch>div>div>div>p{
+    color: #101010;
+    font-weight: 550;
+}
